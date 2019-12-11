@@ -26,7 +26,7 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout
             label='Pay Now'
-            name='Blessed Clothing Ltd.'
+            name='Byte of Knowledge Ltd.'
             billingAddress
             shippingAddress
             image='https://sendeyo.com/up/d/f3eb2117da'
