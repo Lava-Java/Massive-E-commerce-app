@@ -6,12 +6,12 @@ export const CollectionItemContainer = styled.div`
   width: 22vw;
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 500px;
   align-items: center;
   position: relative;
   &:hover {
     .image {
-      opacity: 0.8;
+      opacity: 0.85;
     }
     button {
       opacity: 0.85;
