@@ -45,6 +45,7 @@ const getButtonStyles = props => {
 export const CustomButtonContainer = styled.button`
   min-width: 165px;
   width: auto;
+  margin-top: 25px;
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
@@ -57,4 +58,9 @@ export const CustomButtonContainer = styled.button`
   display: flex;
   justify-content: center;
   ${getButtonStyles}
+  @media screen and (max-width: 800px) {
+    min-width: 50px;
+    padding: 0 5px 0 5px;
+    margin-top: 100px;
+  }
 `;
